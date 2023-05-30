@@ -1,0 +1,95 @@
+.contact {
+    display: flex;
+    /* gap: 4rem; */
+    justify-content: space-between;
+}
+
+.contact .p{
+    width: 32rem;
+}
+
+.socials {
+    width: 13.5rem;
+    border: 1px solid;
+    padding: 9px 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.socials div {
+    color: var(--gray-color);
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.name {
+    display: flex;
+    /* gap: 1rem; */
+    position: relative;
+    width: 505px;
+    justify-content: space-between;
+}
+
+.name input {
+    width: 100% !important;
+}
+
+input[type ="text"],select {
+    background: var(--bg-color);
+    border: 2px var(--gray-color) solid;
+    outline: none;
+    width: 505px;
+    height: 54px;
+    color: var(--gray-color);
+    padding: 0 0 0 14px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+input[type ="text"]:focus,textarea:focus {
+    border: 2px solid var(--primary-color);
+}
+
+textarea{
+    color: var(--gray-color);
+    padding: 10px 0 0 14px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: var(--bg-color);
+    border: 2px var(--gray-color) solid;
+    outline: none;
+    width: 505px;
+}
+
+.name--input {
+    position: relative;
+    /* width: 505px; */
+    width: 48%;
+}
+
+label {
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    background: var(--bg-color);
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+
+.input {
+    position: relative;
+}
+
+.dark--bg {
+    background: #0a0c0c !important;
+}

@@ -1,0 +1,90 @@
+
+.path {
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comp-apps {
+    font-size: 2rem;
+}
+
+.comp-apps span {
+    color: var(--primary-color);
+}
+
+.primary {
+    border: 1px solid var(--primary-color) !important;
+}
+
+.path span {
+    color: var(--primary-color);
+}
+
+.no--main {
+    transform: scale(0) !important;
+}
+
+.operations {
+    position: absolute;
+    right: 1rem;
+    top: -36px;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+.delete--app {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.modify {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.delete--app:hover , .modify:hover{
+    color: var(--primary-color);
+}
+
+.input--image{
+    all: inherit;
+    /* background: rebeccapurple; */
+    width: fit-content;
+    margin: 0 auto;
+    /* display: grid; */
+    /* place-items: center; */
+    padding: 1rem 4rem;
+    color: white;
+    font-size: 2rem;
+    border: 1px solid var(--gray-color);
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+}
+
+.input--image span{
+    display: grid;
+}
+
+.input--image input {
+    display: none;
+}
+
+.plus--icon {
+    position: absolute;
+    top: -8px;
+    right: -13px;
+    background: #0a0c0c;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+
+
+.input--image:hover .plus--icon {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 0 8px 0px;
+}
+nav .logo {
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+nav .logo img {
+    width: 35px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav ul li span {
+    color: var(--primary-color);
+    
+}

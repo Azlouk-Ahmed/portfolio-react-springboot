@@ -1,0 +1,58 @@
+.footer {
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    position: relative;
+}
+
+.line {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: 1px;
+    width: 99rem;
+    background: var(--gray-color);
+    left: -10rem;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.something {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.something span:first-child {
+}
+
+.something span:first-child img {
+    width: 1rem;
+}
+
+.something span:nth-child(2) {
+    
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.media span:first-child {
+    color: white;
+}
+.media span:nth-child(2) {
+    display: flex;
+    gap: 10px;
+
+}
+
+.lower {
+    text-align: center;
+}

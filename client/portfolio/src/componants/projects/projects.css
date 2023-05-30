@@ -1,0 +1,130 @@
+.projects {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.card {
+    height: fit-content;
+    width: 330px;
+    border: 1px var(--gray-color) solid;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.card img {
+    width: 328px;
+    max-height: 200px;
+}
+
+.holder {
+    border-top: 1px var(--gray-color) solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card span {
+    padding: 3px;
+    display: inline-block;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: white;
+}
+
+main {
+    position: relative;
+}
+
+main .box1 {
+    position: absolute;
+    right: -13rem;
+    height: 9rem;
+    width: 7rem;
+    top: 6rem;
+    border: 1px var(--gray-color) solid;
+}
+main .box2 {
+    position: absolute;
+    left: 30rem;
+    height: 4rem;
+    width: 4rem;
+    top: 12rem;
+    border: 1px var(--gray-color) solid;
+}
+main .box3 {
+    position: absolute;
+    left: 18rem;
+    height: 7rem;
+    width: 7rem;
+    top: 3rem;
+    border: 1px var(--gray-color) solid;
+}
+
+main > img {
+    position: absolute;
+    width: 8rem;
+    left: -14rem;
+    top: 8rem;
+}
+
+.add--project {
+    letter-spacing: 0px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    cursor: pointer;
+    color: var(--primary-color);
+    border: 1px var(--primary-color) solid;
+    padding: 9px 17px;
+    font-size: 1rem;
+    width: fit-content;
+}
+
+.add--project span {
+    color: white !important;
+}
+
+.more--gap {
+    gap: 3rem !important;
+}
+
+.form--overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #000000a8;
+    z-index: 10;
+}
+
+.close--form {
+    position: absolute;
+    top: 3rem;
+    right: 22rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.close-icon {
+    transition: .5s;
+}
+
+.close--form:hover .close-icon {
+    transform-origin: center;
+    color: var(--primary-color);
+    transform: rotate(180deg);
+}
+
+.hide {
+    display: none !important;
+}

@@ -1,0 +1,70 @@
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    align-items: center;
+    right: -7rem;
+    top: -9rem;
+    font-size: 20px;
+}
+
+.links span {
+    width: 1px;
+    height: 51vh;
+    background: var(--gray-color);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro h3 {
+    font-weight:700;
+    font-size: 32px;
+    color: white;
+}
+
+.intro h3 span {
+    color: var(--primary-color);
+}
+
+.img {
+    position: relative;
+}
+
+.dots {
+    position: absolute;
+    width: 7rem !important;
+    height: 6rem !important;
+    right: 0;
+    top: 15rem;
+}
+
+.img img {
+    width: 457px;
+    height: 386px;
+}
+
+.img p {
+    display: flex;
+    gap: 5px;
+    border: 1px var(--gray-color) solid;
+    padding: 4px;
+    align-items: center;
+}
+
+.img span {
+    height: 15px;
+    width: 15px;
+    background: var(--primary-color);
+}

@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+.about .parag{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about .img{
+    position: relative;
+}
+.about .img img:first-child{
+    width: 379px;
+    height: 490px;
+    border-bottom: 1px var(--primary-color) solid;
+}
+.about .img img:nth-child(2){
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    left: 0;
+}
+.about .img img:nth-child(3){
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    bottom: 0;
+    right: 1rem;
+
+}
+
+.r--box {
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border: 1px var(--gray-color) solid;
+    right: 80rem;
+    top: 13rem;
+}

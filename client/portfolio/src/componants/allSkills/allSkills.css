@@ -1,0 +1,40 @@
+.add-skill {
+    border: 2px var(--primary-color) solid;
+    width: 250px;
+    position: relative;
+}
+
+.add-skill > span {
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    background: var(--primary-color);
+    padding: 4px 5px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    right: -19px;
+    top: -18px;
+}
+
+
+
+.add-skill .properties {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.w-h-full {
+    width: 100% !important;
+    height: 4rem !important;
+}
+
+.skill-operations {
+    font-size: 1rem;
+    top: -9px;
+    background: var(--bg-color);
+    padding: 0 6px;
+    color: white;
+}

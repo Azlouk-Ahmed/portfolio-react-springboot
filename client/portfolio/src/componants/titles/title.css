@@ -1,0 +1,32 @@
+.title--holder {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.title--holder .container {
+    position : relative;
+    font-size: 32px;
+}
+
+.title--holder .container span {
+    color: var(--primary-color);
+}
+
+.title--holder .container::after {
+    content: "";
+    position: absolute;
+    right: -35rem;
+    height: 1px;
+    top: 1.5rem;
+    width: 70vh;
+    background: var(--primary-color);
+}
+

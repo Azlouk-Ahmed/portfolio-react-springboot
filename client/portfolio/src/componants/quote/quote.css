@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 0 168px;
+    position: relative;
+}
+
+.wrapper .box {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border: 1px var(--gray-color) solid;
+    right: -10rem;
+}
+
+.quote {
+    border: 1px var(--gray-color) solid;
+    width: 100%;
+    padding: 1rem;
+    font-size: 30px;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    top: -23px;
+    left: 25px;
+    background: var(--bg-color);
+    padding: 5px;
+}
+
+.right {
+    position: absolute;
+    right: 19px;
+    bottom: -15px;
+    background: var(--bg-color);
+    padding: 0 5px;
+}
+
+.owner {
+    font-size: 24px;
+    border: 1px var(--gray-color) solid;
+    padding: 5px;
+    width: 17%;
+    margin: 0 0 0 auto;
+}

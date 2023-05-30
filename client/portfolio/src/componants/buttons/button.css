@@ -1,0 +1,21 @@
+.live {
+    border :1px solid var(--primary-color);
+    padding: 8px 16px;
+    color: white;
+
+}
+
+button {
+    background: none;
+    color: var(--gray-color);
+    font-family: inherit;
+    border :1px solid var(--gray-color);
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+}
+
+button:hover{
+    color: var(--primary-color);
+}

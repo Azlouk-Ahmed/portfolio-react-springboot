@@ -1,0 +1,137 @@
+.timeline{
+}
+
+.timeline .timeline-content{
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-content::before{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: var(--primary-color);
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    top: 0;
+}
+
+.timeline-content .job{
+    margin: 20px auto;
+    width: 120px;
+    background: var(--primary-color);
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    color: #fff;
+    padding: 2px 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.timeline-content .left,.timeline-content .right{
+    width: calc(50% - 25px);
+    position: relative;
+}
+.timeline-content .left{
+    float: left;
+}
+
+.timeline-content .left::before{
+    content:"";
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border:3px solid var(--primary-color);
+    position: absolute;
+    right: -11px;
+    border-radius: 50%;
+    top: calc(50% - 16px);
+}
+
+.timeline-content .right::before{
+    content:"";
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border:3px solid var(--primary-color);
+    position: absolute;
+    left: -14px;
+    border-radius: 50%;
+    top: calc(50% - 16px);
+}
+
+.timeline-content .right{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.loc {
+    color: var(--primary-color);
+}
+
+.timeline-content .content{
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+.timeline-content .content h4{
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+}
+
+.timeline-content .content h5 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+.timeline-content .content p{
+    color: var(--text--color);
+    margin: 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.date {
+    font-size: 13px;
+}
+
+.d-f {
+    display: flex;
+}
+
+input[type="date"]{
+    width: 106px;
+    border-right: 15px;
+    font-family: inherit;
+    margin-left: 1rem;
+    border: none;
+    text-indent: 2px;
+    position: relative;
+    height: 25px;
+    border-radius: 5px;
+    color: var(--primary-color);
+    outline: none;
+    user-select: none;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-abos{
+    position: absolute;
+    right: 15px;
+    top: 23px;
+    font-size: 1.5rem;
+}

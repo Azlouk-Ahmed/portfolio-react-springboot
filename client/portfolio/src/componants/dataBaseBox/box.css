@@ -1,0 +1,28 @@
+.languages,.DataBases,.Other {
+    width: 178px;
+}
+
+.Tools , .Frameworks {
+    width : 196px;
+}
+
+.title {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.properties {
+    border-top: 1px var(--gray-color) solid;
+    color: var(--gray-color);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.db-box{
+    width: 178px;
+    border: 1px var(--gray-color) solid;
+    position: relative;
+}

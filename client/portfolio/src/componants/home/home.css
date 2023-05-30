@@ -1,0 +1,7 @@
+.home--layout {
+    padding: 0px 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
